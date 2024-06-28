@@ -1,0 +1,34 @@
+[node alRemapColor]
+	gaffer.nodeMenu.category STRING "alShaders"
+	gaffer.graphEditorLayout.defaultVisibility BOOL false	
+	gaffer.layout.section.Paramaters.collapsed BOOL false
+	gaffer.layout.section.Contrast.collapsed BOOL true
+
+    [attr input]
+		gaffer.graphEditorLayout.visible BOOL true		
+		label STRING	"Input"
+		page STRING 	"Paramaters"			
+    [attr gamma]
+		label STRING	"Gamma"
+		page STRING 	"Paramaters"			
+	[attr saturation]		
+		label STRING	"Saturation"
+		page STRING 	"Paramaters"			
+	[attr hueOffset]		
+		label STRING	"Hue offset"
+		page STRING 	"Paramaters"			
+	[attr gain]		
+		label STRING	"Gain"
+		page STRING 	"Contrast"			
+	[attr exposure]		
+		label STRING	"Exposure"
+		page STRING 	"Contrast"			
+	[attr mask]		
+		label STRING	"Mask"	
+		page STRING 	"Contrast"	
+	[attr contrast]		
+		label STRING	"Contrast"	
+		page STRING 	"Contrast"
+	[attr contrastPivot]		
+		label STRING	"Pivot"	
+		page STRING 	"Contrast"			

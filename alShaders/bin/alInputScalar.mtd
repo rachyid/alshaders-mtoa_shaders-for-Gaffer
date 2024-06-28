@@ -1,0 +1,62 @@
+[node alInputScalar]
+	gaffer.nodeMenu.category STRING "alShaders"
+	gaffer.graphEditorLayout.defaultVisibility BOOL false	
+	gaffer.layout.section.Paramaters.collapsed BOOL false
+	gaffer.layout.section.Remap.collapsed BOOL true
+	gaffer.layout.section.Contrast.collapsed BOOL true
+	gaffer.layout.section.Bias_Gain.collapsed BOOL true
+	gaffer.layout.section.Clamp.collapsed BOOL true
+
+
+    [attr input]
+		gaffer.graphEditorLayout.visible BOOL true	
+		label STRING	"Input"
+		page STRING 	"Paramaters"		
+    [attr userName]
+		gaffer.graphEditorLayout.visible BOOL true		
+		label STRING	"User Name"
+		page STRING 	"Paramaters"		
+
+    [attr RMPinputMin]
+		label STRING	"Input min"
+		page STRING 	"Remap"		
+	[attr RMPinputMax]		
+		label STRING	"Input max"
+		page STRING 	"Remap"
+
+	[attr RMPcontrast]		
+		label STRING	"Contrast"
+		page STRING 	"Contrast"		
+	[attr RMPcontrastPivot]		
+		label STRING	"Pivot"
+		page STRING 	"Contrast"			
+
+	[attr RMPbias]		
+		label STRING	"Bias"
+		page STRING 	"Bias_Gain"
+	[attr RMPgain]		
+		label STRING	"Gain"
+		page STRING 	"Bias_Gain"
+	[attr RMPoutputMin]		
+		label STRING	"Output min"
+		page STRING 	"Bias_Gain"		
+	[attr RMPoutputMax]		
+		label STRING	"Output max"
+		page STRING 	"Bias_Gain"	
+
+	[attr RMPclampEnable]		
+		label STRING	"Enable"
+		page STRING 	"Clamp"			
+	[attr RMPthreshold]		
+		label STRING	"Expand"
+		page STRING 	"Clamp"			
+	[attr RMPclampMin]		
+		label STRING	"Min"
+		page STRING 	"Clamp"			
+	[attr RMPclampMax]		
+		label STRING	"Max"
+		page STRING 	"Clamp"			
+
+
+
+		

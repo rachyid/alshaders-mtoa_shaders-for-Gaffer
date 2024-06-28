@@ -1,0 +1,30 @@
+[node alInputVector]
+	gaffer.nodeMenu.category STRING "alShaders"
+	gaffer.graphEditorLayout.defaultVisibility BOOL false	
+	gaffer.layout.section.Paramaters.collapsed BOOL false
+	gaffer.layout.section.Transform.collapsed BOOL true		
+
+
+	[attr input]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Paramaters"		
+		label STRING	"Input"	
+    [attr userName]
+		gaffer.graphEditorLayout.visible BOOL true
+		page STRING "Paramaters"		
+		label STRING	"User Name"	
+    [attr vector]
+		label STRING	"Custom"
+		page STRING "Paramaters"		
+	[attr type]		
+		label STRING	"Type"
+		page STRING "Paramaters"		
+	[attr matrix]		
+		label STRING	"Matrix"
+		page STRING "Transform"		
+	[attr coordinates]		
+		label STRING	"Coordinates"		
+		page STRING "Transform"	
+
+
+		

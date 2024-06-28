@@ -1,0 +1,37 @@
+[node alSwitchFloat]
+	gaffer.nodeMenu.category STRING "alShaders"
+	gaffer.graphEditorLayout.defaultVisibility BOOL false	
+	gaffer.layout.section.Paramaters.collapsed BOOL false
+	gaffer.layout.section.Mix.collapsed BOOL true
+
+    [attr inputA]
+		gaffer.graphEditorLayout.visible BOOL true		
+		label STRING	"Input A"
+		page STRING 	"Paramaters"		
+    [attr inputB]
+		label STRING	"Input B"
+		page STRING 	"Paramaters"		
+	[attr inputC]		
+		label STRING	"Input C"
+		page STRING 	"Paramaters"		
+	[attr inputD]		
+		label STRING	"Input D"
+		page STRING 	"Paramaters"		
+	[attr inputE]		
+		label STRING	"Input E"
+		page STRING 	"Paramaters"		
+	[attr inputF]		
+		label STRING	"Input F"
+		page STRING 	"Paramaters"		
+	[attr inputG]		
+		label STRING	"Input G"
+		page STRING 	"Paramaters"		
+	[attr inputH]		
+		label STRING	"Input H"
+		page STRING 	"Paramaters"		
+	[attr mix]		
+		label STRING	"Mix"
+		page STRING 	"Mix"		
+	[attr threshold]		
+		label STRING	"Threshold"	
+		page STRING 	"Mix"	

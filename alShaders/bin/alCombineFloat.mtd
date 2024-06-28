@@ -1,0 +1,21 @@
+[node alCombineFloat]
+	gaffer.nodeMenu.category STRING "alShaders"
+	gaffer.graphEditorLayout.defaultVisibility BOOL false	
+	gaffer.layout.section.Paramaters.collapsed BOOL false
+
+    [attr input1]
+		gaffer.graphEditorLayout.visible BOOL true	
+		label STRING	"Input 1"
+		page STRING 	"Paramaters"		
+    [attr input2]
+		gaffer.graphEditorLayout.visible BOOL true		
+		label STRING	"Input 2"
+		page STRING 	"Paramaters"		
+    [attr mask]
+		label STRING	"Mask"
+		page STRING 	"Paramaters"		
+    [attr combineop]
+		label STRING	"Combine Op"
+		page STRING 	"Paramaters"		
+
+		

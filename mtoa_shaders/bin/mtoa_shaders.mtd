@@ -1,0 +1,1058 @@
+# mtd file created by rachi Hadj Abderrahmane
+# elrachyd@gmail.com
+# date: 1/26/2021
+#-------------------Maya Shaders-------------------------------------------------
+#--------------------------------------------------------------------------------
+[node MayaBulge]
+	gaffer.nodeMenu.category STRING "MtoAShaders/2D"	
+	gaffer.graphEditorLayout.defaultVisibility BOOL false
+
+	[attr uWidth]
+		label  	STRING	"U Width"
+	[attr vWidth]
+		label  	STRING	"V Width"
+	[attr defaultColor]
+		label  	STRING	"Default Color"
+		page 	STRING 	"Color Balance"		
+	[attr colorGain]
+		label  	STRING	"Color Gain"
+		page 	STRING 	"Color Balance"	
+	[attr colorOffset]
+		label  	STRING	"Color Offset"
+		page 	STRING 	"Color Balance"	
+	[attr alphaGain]
+		label  	STRING	"Alpha Gain"
+		page 	STRING 	"Color Balance"		
+	[attr alphaOffset]
+		label  	STRING	"Alpha Offset"
+		page 	STRING 	"Color Balance"		
+	[attr alphaIsLuminance]
+		label  	STRING	"Alpha Is Luminance"
+		page 	STRING 	"Color Balance"		
+	[attr invert]
+		label  	STRING	"Invert"
+		page 	STRING 	"Effect"	
+	[attr uvCoord]
+		label  	STRING	"UV Coord"
+		page 	STRING 	"UV Coordinates"
+	
+#--------------------------------------------------------------------------------
+[node MayaBrownian] 
+	gaffer.nodeMenu.category STRING "MtoAShaders/3D"
+	gaffer.graphEditorLayout.defaultVisibility BOOL false
+
+
+	[attr lacunarity]
+		label  	STRING	"Lacunarity"
+	[attr increment]
+		label  	STRING	"Increment"
+	[attr octaves]
+		label  	STRING	"Octaves"
+	[attr weight3d]
+		label  	STRING	"Weight 3d"
+	[attr placementMatrix]
+		label  	STRING	"Placement Matrix"
+
+	[attr defaultColor]
+		label  	STRING	"Default Color"
+		page 	STRING 	"Color Balance"		
+	[attr colorGain]	
+		label  	STRING	"Color Gain"
+		page 	STRING 	"Color Balance"		
+	[attr colorOffset]	
+		label  	STRING	"Color Offset"
+		page 	STRING 	"Color Balance"		
+	[attr alphaGain]	
+		label  	STRING	"Alpha Gain"
+		page 	STRING 	"Color Balance"		
+	[attr alphaOffset]	
+		label  	STRING	"Alpha Offset"
+		page 	STRING 	"Color Balance"	
+	[attr alphaIsLuminance]	
+		label  	STRING	"Alpha Is Luminance"
+		page 	STRING 	"Color Balance"		
+	[attr wrap]
+		label  	STRING	"wrap"
+		page 	STRING 	"Effects"		
+	[attr local]	
+		label  	STRING	"Local"
+		page 	STRING 	"Effects"		
+	[attr invert]	
+		label  	STRING	"Invert"
+		page 	STRING 	"Effects"	
+
+
+	
+#--------------------------------------------------------------------------------
+[node MayaCloth]
+	gaffer.nodeMenu.category STRING "MtoAShaders/2D"
+	gaffer.graphEditorLayout.defaultVisibility BOOL false
+
+	[attr gapColor]
+		label  		STRING	"Gap Color"
+	[attr uColor]
+		label  		STRING	"U Color"
+	[attr vColor]
+		label  		STRING	"V Color"
+	[attr uWidth]
+		label  		STRING	"U Width"
+	[attr vWidth]
+		label  		STRING	"V Width"
+	[attr uWave]
+		label  		STRING	"U Wave"
+	[attr vWave]
+		label  		STRING	"V Wave"
+	[attr randomness]
+		label  		STRING	"Randomness"
+	[attr widthSpread]
+		label  		STRING	"Width Spread"
+		page 		STRING 	"Cloth Attributes"
+	[attr brightSpread]
+		label  		STRING	"Bright Spread"
+		page 		STRING 	"Cloth Attributes"
+
+	[attr defaultColor]
+		label  		STRING	"Default Color"
+		page 		STRING 	"Color Balance"
+	[attr colorGain]
+		label  		STRING	"Color Gain"
+		page 		STRING 	"Color Balance"
+	[attr colorOffset]
+		label  		STRING	"Color Offset"
+		page 		STRING 	"Color Balance"
+	[attr alphaGain]
+		label  		STRING	"Alpha Gain"
+		page 		STRING 	"Color Balance"
+	[attr alphaOffset]
+		label  		STRING	"Alpha Offset"
+		page 		STRING 	"Color Balance"
+	[attr alphaIsLuminance]
+		label  		STRING	"Alpha Is Luminance"
+		page 		STRING 	"Color Balance"
+	[attr invert]
+		label  		STRING	"Invert"
+		page 		STRING 	"Effects"
+	[attr uvCoord]	
+		label  		STRING	"Invert"
+		page 		STRING 	"UV Coords"				
+#--------------------------------------------------------------------------------
+[node MayaCloud]
+	gaffer.nodeMenu.category STRING "MtoAShaders/3D"	
+	gaffer.graphEditorLayout.defaultVisibility BOOL false
+
+	[attr color1]
+		label  		STRING	"Color 1"
+	[attr color2]
+		label  		STRING	"Color 2"
+	[attr contrast]
+		label  		STRING	"contrast"
+	[attr amplitude]
+		label  		STRING	"Amplitude"
+		page 		STRING 	"Cloud Attributes"
+	[attr depth]
+		label  		STRING	"Depth"
+		page 		STRING 	"Cloud Attributes"
+	[attr ripples]
+		label  		STRING	"Ripples"
+		page 		STRING 	"Cloud Attributes"
+	[attr softEdges]
+		label  		STRING	"Soft Edges"
+		page 		STRING 	"Cloud Attributes"
+	[attr edgeThresh]
+		label  		STRING	"Edge Thresh"
+		page 		STRING 	"Cloud Attributes"
+	[attr centerThresh]
+		label  		STRING	"Center Thresh"
+		page 		STRING 	"Cloud Attributes"
+	[attr transpRange]
+		label  		STRING	"Transp Range"
+		page 		STRING 	"Cloud Attributes"
+	[attr ratio]
+		label  		STRING	"Ratio"
+		page 		STRING 	"Cloud Attributes"
+	[attr placementMatrix]
+
+	[attr defaultColor]
+		label  		STRING	"Default Color"
+		page 		STRING 	"Color Balance"
+	[attr colorGain]
+		label  		STRING	"Color Gain"
+		page 		STRING 	"Color Balance"
+	[attr colorOffset]
+		label  		STRING	"Color Offset"
+		page 		STRING 	"Color Balance"
+	[attr invert]
+		label  		STRING	"Invertt"
+		page 		STRING 	"Effects"
+	[attr local]
+		label  		STRING	"Local"
+		page 		STRING 	"Effects"
+	[attr wrap]
+		label  		STRING	"Wrap"
+		page 		STRING 	"Effects"	
+	
+#--------------------------------------------------------------------------------
+[node MayaCloudAlpha]
+	gaffer.nodeMenu.category STRING "MtoAShaders/3D"		
+	gaffer.graphEditorLayout.defaultVisibility BOOL false
+
+	[attr amplitude]
+		label  		STRING	"Amplitude"
+	[attr depth]
+		label  		STRING	"Depth"
+	[attr ripples]
+		label  		STRING	"Ripples"
+	[attr edgeThresh]
+		label  		STRING	"Edge Thresh"
+	[attr centerThresh]
+		label  		STRING	"Center Thresh"
+	[attr transpRange]
+		label  		STRING	"Transp Range"
+	[attr ratio]
+		label  		STRING	"Ratio"
+
+	[attr placementMatrix]
+
+	[attr alphaGain]
+		label  		STRING	"Alpha Gain"
+		page 		STRING 	"Color Balance"	
+	[attr alpahOffset]	
+		label  		STRING	"Alpha Offset"
+		page 		STRING 	"Color Balance"	
+	[attr invert]	
+		label  		STRING	"Invert"
+		page 		STRING 	"Effects"
+	[attr local]	
+		label  		STRING	"Local"
+		page 		STRING 	"Effects"
+	[attr wrap]
+		label  		STRING	"Wrap"
+		page 		STRING 	"Effects"			
+#--------------------------------------------------------------------------------
+[node MayaCrater]
+	gaffer.nodeMenu.category STRING "MtoAShaders/3D"	
+	gaffer.graphEditorLayout.defaultVisibility BOOL false
+
+	[attr shaker]
+		label  		STRING	"Shaker"
+	[attr channel1]
+		label  		STRING	"channel 1"
+	[attr channel2]
+		label  		STRING	"channel 2"
+	[attr channel3]
+		label  		STRING	"channel 3"
+	[attr melt]
+		label  		STRING	"Melt"
+	[attr balance]
+		label  		STRING	"Balance"
+	[attr frequency]
+		label  		STRING	"Frequency"
+
+
+	[attr normDepth]
+		label  		STRING	"Norm Depth"
+		page 		STRING 	"Normal Options"
+	[attr normMelt]
+		label  		STRING	"Norm Melt"
+		page 		STRING 	"Normal Options"		
+	[attr normBalance]
+		label  		STRING	"Norm Balance"
+		page 		STRING 	"Normal Options"
+	[attr normFrequency]
+		label  		STRING	"Norm Frequency"
+		page 		STRING 	"Normal Options"
+
+	[attr placementMatrix]
+
+	[attr defaultColor]
+		label  		STRING	"Default Color"
+		page 		STRING 	"Color Balance"	
+	[attr colorGain]	
+		label  		STRING	"Color Gain"
+		page 		STRING 	"Color Balance"	
+	[attr colorOffset]
+		label  		STRING	"Color Offset"
+		page 		STRING 	"Color Balance"	
+	[attr alphaGain]
+		label  		STRING	"Alpha Gain"
+		page 		STRING 	"Color Balance"	
+	[attr alphaOffset]	
+		label  		STRING	"Alpha Offset"
+		page 		STRING 	"Color Balance"	
+	[attr alphaIsLuminance]	
+		label  		STRING	"Alpha Is Luminance"
+		page 		STRING 	"Color Balance"		
+
+	[attr invert]	
+		label  		STRING	"Invert"
+		page 		STRING 	"Effects"	
+	[attr wrap]
+		label  		STRING	"Wrap"
+		page 		STRING 	"Effects"	
+	[attr local]
+		label  		STRING	"Local"
+		page 		STRING 	"Effects"	
+	
+#--------------------------------------------------------------------------------
+[node MayaEnvSphere]
+	gaffer.nodeMenu.category STRING "MtoAShaders/Env"	
+	gaffer.graphEditorLayout.defaultVisibility BOOL false
+
+	[attr image]
+		label  		STRING	"Image"
+	[attr flip]
+		label  		STRING	"Flip"
+	[attr placementMatrix]	
+	
+#--------------------------------------------------------------------------------
+[node MayaFluid]
+	gaffer.nodeMenu.category STRING "MtoAShaders"	
+	gaffer.nodeMenu.category STRING ""		
+#--------------------------------------------------------------------------------
+[node MayaFluidData]
+	gaffer.nodeMenu.category STRING "MtoAShaders"
+	gaffer.nodeMenu.category STRING ""		
+#--------------------------------------------------------------------------------
+[node MayaFluidTexture2D]
+	gaffer.nodeMenu.category STRING "MtoAShaders"
+	gaffer.nodeMenu.category STRING ""		
+#--------------------------------------------------------------------------------
+[node MayaFractal]
+	gaffer.nodeMenu.category STRING "MtoAShaders/Noise"	
+	gaffer.graphEditorLayout.defaultVisibility BOOL false
+
+	[attr amplitude]
+		label  		STRING	"Amplitude"
+	[attr threshold]
+		label  		STRING	"Threshold"
+	[attr ratio]
+		label  		STRING	"Ratio"
+	[attr frequencyRatio]
+		label  		STRING	"Frequency Ratio"
+	[attr levelMin]
+		label  		STRING	"Level Min"
+	[attr levelMax]
+		label  		STRING	"Level Max"
+	[attr bias]
+		label  		STRING	"Bias"
+	[attr inflection]
+		label  		STRING	"Inflection"
+	[attr animated]
+		label  		STRING	"Animated"
+	[attr time]
+		label  		STRING	"Time"
+	[attr timeRatio]
+		label  		STRING	"Time Ratio"
+
+	[attr uvCoord]
+		label  		STRING	"Uv Coord"
+		page 		STRING 	"UV Coord"
+
+	[attr defaultColor]
+		label  		STRING	"Default Color"
+		page 		STRING 	"Color Balance"		
+	[attr colorGain]
+		label  		STRING	"Color Gain"
+		page 		STRING 	"Color Balance"	
+	[attr colorOffset]
+		label  		STRING	"Color Offset"
+		page 		STRING 	"Color Balance"	
+	[attr alphaGain]
+		label  		STRING	"Alpha Gain"
+		page 		STRING 	"Color Balance"	
+	[attr alphaOffset]	
+		label  		STRING	"Alpha Offset"
+		page 		STRING 	"Color Balance"	
+	[attr alphaIsLuminance]
+		label  		STRING	"Alpha Is Luminance"
+		page 		STRING 	"Color Balance"	
+	[attr invert]
+		label  		STRING	"Invert"
+		page 		STRING 	"Effects"		
+#--------------------------------------------------------------------------------
+[node MayaGranite]
+	gaffer.nodeMenu.category STRING "MtoAShaders/3D"	
+	gaffer.graphEditorLayout.defaultVisibility BOOL false
+
+	[attr color1]
+		label  		STRING	"color 1"
+	[attr color2]
+		label  		STRING	"color 2"
+	[attr color3]
+		label  		STRING	"color 3"
+	[attr fillerColor]
+		label  		STRING	"Filler Color"
+	[attr cellSize]
+		label  		STRING	"Cell Size"
+	[attr density]
+		label  		STRING	"Density"
+	[attr mixRatio]
+		label  		STRING	"Mix Ratio"
+	[attr spottyness]
+		label  		STRING	"Spottyness"
+	[attr randomness]
+		label  		STRING	"Randomness"
+	[attr threshold]
+		label  		STRING	"Threshold"
+	[attr creases]
+		label  		STRING	"Creases"
+	[attr placementMatrix]
+
+	[attr defaultColor]
+		label  		STRING	"Default Color"
+		page 		STRING 	"Color Balance"
+	[attr colorGain]
+		label  		STRING	"Color Gain"
+		page 		STRING 	"Color Balance"
+	[attr colorOffset]
+		label  		STRING	"Color Offset"
+		page 		STRING 	"Color Balance"
+	[attr alphaGain]
+		label  		STRING	"Alpha Gain"
+		page 		STRING 	"Color Balance"
+	[attr alphaOffset]	
+		label  		STRING	"Alpha Offset"
+		page 		STRING 	"Color Balance"
+	[attr alphaIsLuminance]
+		label  		STRING	"Alpha Is Luminance"
+		page 		STRING 	"Color Balance"
+
+	[attr wrap]
+		label  		STRING	"Wrap"
+		page 		STRING 	"Effects"
+	[attr local]
+		label  		STRING	"Local"
+		page 		STRING 	"Effects"
+	[attr invert]	
+		label  		STRING	"Invert"
+		page 		STRING 	"Effects"
+#--------------------------------------------------------------------------------
+[node MayaGrid]
+	gaffer.nodeMenu.category STRING "MtoAShaders/2D"	
+	gaffer.graphEditorLayout.defaultVisibility BOOL false
+
+	[attr lineColor]
+		label  		STRING	"lineColor"
+	[attr fillerColor]
+		label  		STRING	"Filler Color"
+	[attr uWidth]
+		label  		STRING	"U Width"
+	[attr vWidth]
+		label  		STRING	"V Width"
+	[attr contrast]
+		label  		STRING	"Contrast"
+
+	[attr defaultColor]
+		label  		STRING	"Default Color"
+		page 		STRING 	"Color Balance"
+	[attr colorGain]
+		label  		STRING	"Color Gain"
+		page 		STRING 	"Color Balance"
+	[attr colorOffset]
+		label  		STRING	"Color Offset"
+		page 		STRING 	"Color Balance"
+	[attr alphaGain]
+		label  		STRING	"Alpha Gain"
+		page 		STRING 	"Color Balance"
+	[attr alphaOffset]	
+		label  		STRING	"Alpha Offset"
+		page 		STRING 	"Color Balance"
+	[attr alphaIsLuminance]
+		label  		STRING	"Alpha Is Luminance"
+		page 		STRING 	"Color Balance"
+	[attr invert]
+		label  		STRING	"Invert"
+		page 		STRING 	"Effects"
+	[attr filter]
+		label  		STRING	"Filter"
+		page 		STRING 	"Effects"
+	[attr filterOffset]
+		label  		STRING	"Filter Offset"
+		page 		STRING 	"Effects"	
+
+	[attr uvCoord]
+		label  		STRING	"UV Coord"
+		page 		STRING 	"UV Coords"		
+#--------------------------------------------------------------------------------
+#[node MayaHair]
+#	gaffer.nodeMenu.category STRING "MtoAShaders"		
+#--------------------------------------------------------------------------------
+[node MayaLeather]
+	gaffer.nodeMenu.category STRING "MtoAShaders/3D"	
+	gaffer.graphEditorLayout.defaultVisibility BOOL false
+
+	[attr cellColor]
+		label  		STRING	"Cell Color"
+	[attr creaseColor]
+		label  		STRING	"Crease Color"
+	[attr cellSize]
+		label  		STRING	"Cell Size"
+	[attr density]
+		label  		STRING	"Density"
+	[attr spottyness]
+		label  		STRING	"Spottyness"
+	[attr randomness]
+		label  		STRING	"Randomness"
+	[attr threshold]
+		label  		STRING	"Threshold"
+	[attr creases]
+		label  		STRING	"Creases"
+
+	[attr wrap]
+		label  		STRING	"Wrap"
+		page 		STRING 	"Effects"
+	[attr local]
+		label  		STRING	"Local"
+		page 		STRING 	"Effects"
+
+	[attr placementMatrix]
+
+	[attr defaultColor]
+		label  		STRING	"Default Color"
+		page 		STRING 	"Color Balance"
+	[attr colorGain]
+		label  		STRING	"Color Gain"
+		page 		STRING 	"Color Balance"
+	[attr colorOffset]
+		label  		STRING	"Color Offset"
+		page 		STRING 	"Color Balance"
+	[attr alphaGain]
+		label  		STRING	"Alpha Gain"
+		page 		STRING 	"Color Balance"
+	[attr alphaOffset]	
+		label  		STRING	"Alpha Offset"
+		page 		STRING 	"Color Balance"
+	[attr alphaIsLuminance]
+		label  		STRING	"Alpha Is Luminance"
+		page 		STRING 	"Color Balance"
+	[attr invert]
+		label  		STRING	"Invert"
+		page 		STRING 	"Effects"
+
+#--------------------------------------------------------------------------------
+[node MayaMarble]
+	gaffer.nodeMenu.category STRING "MtoAShaders/3D"	
+	gaffer.graphEditorLayout.defaultVisibility BOOL false
+
+	[attr fillerColor]
+		label  		STRING	"Filler Color"
+	[attr veinColor]
+		label  		STRING	"Vein Color"
+	[attr veinWidth]
+		label  		STRING	"Vein Width"
+	[attr diffusion]
+		label  		STRING	"Diffusion"
+	[attr contrast]
+		label  		STRING	"Contrast"
+
+	[attr amplitude]
+		label  		STRING	"Amplitude"
+
+	[attr ratio]
+		label  		STRING	"Ratio"
+		
+	[attr ripples]
+		label  		STRING	"Ripples"
+
+	[attr depth]
+		label  		STRING	"Depth"
+
+
+	[attr wrap]
+		label  		STRING	"Wrap"
+		page 		STRING 	"Effects"
+	[attr local]
+		label  		STRING	"Local"
+		page 		STRING 	"Effects"
+	[attr placementMatrix]
+
+	[attr defaultColor]
+		label  		STRING	"Default Color"
+		page 		STRING 	"Color Balance"
+	[attr colorGain]
+		label  		STRING	"Color Gain"
+		page 		STRING 	"Color Balance"
+	[attr colorOffset]
+		label  		STRING	"Color Offset"
+		page 		STRING 	"Color Balance"
+	[attr alphaGain]
+		label  		STRING	"Alpha Gain"
+		page 		STRING 	"Color Balance"
+	[attr alphaOffset]	
+		label  		STRING	"Alpha Offset"
+		page 		STRING 	"Color Balance"
+	[attr alphaIsLuminance]
+		label  		STRING	"Alpha Is Luminance"
+		page 		STRING 	"Color Balance"
+	[attr invert]
+		label  		STRING	"Invert"
+		page 		STRING 	"Effects"
+		
+#--------------------------------------------------------------------------------
+[node MayaMountain]
+	gaffer.nodeMenu.category STRING "MtoAShaders/2D"	
+	gaffer.graphEditorLayout.defaultVisibility BOOL false
+
+	[attr snowColor]
+		label  		STRING	"Snow Color"
+	[attr rockColor]
+		label  		STRING	"Snow Color"
+	[attr amplitude]
+		label  		STRING	"Amplitude"
+
+	[attr snowRoughness]
+		label  		STRING	"Snow Roughness"
+	[attr rockRoughness]
+		label  		STRING	"Rock Roughness"
+	[attr boundary]
+		label  		STRING	"Boundary"
+	[attr snowAltitude]
+		label  		STRING	"Snow Altitude"
+	[attr snowDropoff]
+		label  		STRING	"Snow Dropoff"
+	[attr snowSlope]
+		label  		STRING	"Snow Slope"
+	[attr depthMax]
+		label  		STRING	"Depth Max"
+
+	[attr defaultColor]
+		label  		STRING	"Default Color"
+		page 		STRING 	"Color Balance"
+	[attr colorGain]
+		label  		STRING	"Color Gain"
+		page 		STRING 	"Color Balance"
+	[attr colorOffset]
+		label  		STRING	"Color Offset"
+		page 		STRING 	"Color Balance"		
+	[attr alphaGain]
+		label  		STRING	"Alpha Gain"
+		page 		STRING 	"Color Balance"
+	[attr alphaOffset]	
+		label  		STRING	"Alpha Offset"
+		page 		STRING 	"Color Balance"
+	[attr alphaIsLuminance]
+		label  		STRING	"Alpha Is Luminance"
+		page 		STRING 	"Color Balance"
+
+	[attr invert]
+		label  		STRING	"Invert"
+		page 		STRING 	"Effects"
+	[attr uvCoord]
+		label  		STRING	"UV Coord"
+		page 		STRING 	"UV Coord"		
+#--------------------------------------------------------------------------------
+[node MayaNoise]
+	gaffer.nodeMenu.category STRING "MtoAShaders/Noise"	
+	gaffer.graphEditorLayout.defaultVisibility BOOL false
+
+	[attr threshold]
+		label  		STRING	"Threshold"
+	[attr amplitude]
+		label  		STRING	"Amplitude"
+	[attr ratio]
+		label  		STRING	"Ratio"
+	[attr frequencyRatio]
+		label  		STRING	"Frequency Ratio"
+	[attr depthMax]
+		label  		STRING	"Depth Max"
+	[attr inflection]
+		label  		STRING	"Inflection"
+	[attr time]
+		label  		STRING	"Time"
+	[attr frequency]
+		label  		STRING	"Frequency"
+	[attr implode]
+		label  		STRING	"Implode"
+	[attr implodeCenter]
+		label  		STRING	"Implode Center"
+	[attr noiseType]
+		label  		STRING	"Noise Type"
+	
+	[attr density]
+		label  		STRING	"Density"
+	[attr spottyness]
+		label  		STRING	"Spottyness"
+	[attr sizeRand]
+		label  		STRING	"Size Rand"
+	[attr randomness]
+		label  		STRING	"Randomness"
+	[attr falloff]
+		label  		STRING	"Falloff"
+	[attr numWaves]
+		label  		STRING	"Num Waves"
+
+	[attr defaultColor]
+		label  		STRING	"Default Color"
+		page 		STRING 	"Color Balance"
+	[attr colorGain]
+		label  		STRING	"Color Gain"
+		page 		STRING 	"Color Balance"
+	[attr colorOffset]
+		label  		STRING	"Color Offset"
+		page 		STRING 	"Color Balance"
+	[attr alphaGain]
+		label  		STRING	"Alpha Gain"
+		page 		STRING 	"Color Balance"
+	[attr alphaOffset]	
+		label  		STRING	"Alpha Offset"
+		page 		STRING 	"Color Balance"
+	[attr alphaIsLuminance]
+		label  		STRING	"Alpha Is Luminance"
+		page 		STRING 	"Color Balance"
+	[attr invert]
+		label  		STRING	"Invert"
+		page 		STRING 	"Effects"
+	[attr uvCoord]
+		label  		STRING	"UV Coord"
+		page 		STRING 	"UV Coord"
+	
+#--------------------------------------------------------------------------------
+[node MayaRock]
+	gaffer.nodeMenu.category STRING "MtoAShaders/3D"	
+	gaffer.graphEditorLayout.defaultVisibility BOOL false
+
+	[attr color1]
+		label  		STRING	"Color 1"
+	[attr color2]
+		label  		STRING	"Color 2"
+	[attr grainSize]
+		label  		STRING	"GrainSize"
+	[attr diffusion]
+		label  		STRING	"Diffusion"
+	[attr mixRatio]
+		label  		STRING	"Mix Ratio"
+	[attr wrap]
+		label  		STRING	"Wrap"
+	[attr local]
+		label  		STRING	"Local"
+	[attr placementMatrix]	
+
+	[attr defaultColor]
+		label  		STRING	"Default Color"
+		page 		STRING 	"Color Balance"
+	[attr colorGain]
+		label  		STRING	"Color Gain"
+		page 		STRING 	"Color Balance"
+	[attr colorOffset]
+		label  		STRING	"Color Offset"
+		page 		STRING 	"Color Balance"
+	[attr alphaGain]
+		label  		STRING	"Alpha Gain"
+		page 		STRING 	"Color Balance"
+	[attr alphaOffset]	
+		label  		STRING	"Alpha Offset"
+		page 		STRING 	"Color Balance"
+	[attr alphaIsLuminance]
+		label  		STRING	"Alpha Is Luminance"
+		page 		STRING 	"Color Balance"
+	[attr invert]
+		label  		STRING	"Invert"
+		page 		STRING 	"Effects"
+		
+#--------------------------------------------------------------------------------
+[node MayaSnow]
+	gaffer.nodeMenu.category STRING "MtoAShaders/3D"	
+	gaffer.graphEditorLayout.defaultVisibility BOOL false
+
+	[attr snowColor]
+		label  		STRING	"Snow Color"
+	[attr surfaceColor]
+		label  		STRING	"Surface Color"
+	[attr threshold]
+		label  		STRING	"Threshold"
+	[attr depthDecay]
+		label  		STRING	"Depth Decay"
+	[attr thickness]
+		label  		STRING	"Thickness"
+	[attr wrap]
+		label  		STRING	"Wrap"
+		page 		STRING 	"Effects"
+	[attr local]
+		label  		STRING	"Local"
+		page 		STRING 	"Effects"
+	[attr placementMatrix]	
+
+	[attr defaultColor]
+		label  		STRING	"Default Color"
+		page 		STRING 	"Color Balance"
+	[attr colorGain]
+		label  		STRING	"Color Gain"
+		page 		STRING 	"Color Balance"
+	[attr colorOffset]
+		label  		STRING	"Color Offset"
+		page 		STRING 	"Color Balance"
+	[attr alphaGain]
+		label  		STRING	"Alpha Gain"
+		page 		STRING 	"Color Balance"
+	[attr alphaOffset]	
+		label  		STRING	"Alpha Offset"
+		page 		STRING 	"Color Balance"
+	[attr alphaIsLuminance]
+		label  		STRING	"Alpha Is Luminance"
+		page 		STRING 	"Color Balance"
+	[attr invert]
+		label  		STRING	"Invert"
+		page 		STRING 	"Effects"
+		
+#--------------------------------------------------------------------------------
+[node MayaSolidFractal]
+	gaffer.nodeMenu.category STRING "MtoAShaders/3D"	
+	gaffer.graphEditorLayout.defaultVisibility BOOL false
+
+	[attr threshold]
+		label  		STRING	"Threshold"
+	[attr amplitude]
+		label  		STRING	"Amplitude"
+	[attr ratio]
+		label  		STRING	"Ratio"
+	[attr frequencyRatio]
+		label  		STRING	"Frequency Ratio"
+	[attr ripples]
+		label  		STRING	"Ripples"
+	[attr depth]
+		label  		STRING	"Depth"
+	[attr bias]
+		label  		STRING	"Bias"
+	[attr inflection]
+		label  		STRING	"Inflection"
+	[attr animated]
+		label  		STRING	"Animated"
+	[attr time]
+		label  		STRING	"Time"
+	[attr timeRatio]
+		label  		STRING	"Time Ratio"
+	[attr placementMatrix]
+
+	[attr wrap]
+		label  		STRING	"Wrap"
+		page 		STRING 	"Effects"
+	[attr local]
+		label  		STRING	"Local"
+		page 		STRING 	"Effects"
+	[attr defaultColor]
+		label  		STRING	"Default Color"
+		page 		STRING 	"Color Balance"
+	[attr colorGain]
+		label  		STRING	"Color Gain"
+		page 		STRING 	"Color Balance"
+	[attr colorOffset]
+		label  		STRING	"Color Offset"
+		page 		STRING 	"Color Balance"
+	[attr alphaGain]
+		label  		STRING	"Alpha Gain"
+		page 		STRING 	"Color Balance"
+	[attr alphaOffset]	
+		label  		STRING	"Alpha Offset"
+		page 		STRING 	"Color Balance"
+	[attr alphaIsLuminance]
+		label  		STRING	"Alpha Is Luminance"
+		page 		STRING 	"Color Balance"
+	[attr invert]
+		label  		STRING	"Invert"
+		page 		STRING 	"Effects"		
+#--------------------------------------------------------------------------------
+[node MayaStucco]
+	gaffer.nodeMenu.category STRING "MtoAShaders/3D"	
+	gaffer.graphEditorLayout.defaultVisibility BOOL false
+
+	[attr shaker]
+		label  		STRING	"Shaker"
+	[attr channel1]
+		label  		STRING	"Channel 1"
+	[attr channel2]
+		label  		STRING	"Channel 2"
+	[attr placementMatrix]
+
+	[attr wrap]
+		label  		STRING	"Wrap"
+		page 		STRING 	"Effects"
+	[attr local]
+		label  		STRING	"Local"
+		page 		STRING 	"Effects"
+	[attr defaultColor]
+		label  		STRING	"Default Color"
+		page 		STRING 	"Color Balance"
+	[attr colorGain]
+		label  		STRING	"Color Gain"
+		page 		STRING 	"Color Balance"
+	[attr colorOffset]
+		label  		STRING	"Color Offset"
+		page 		STRING 	"Color Balance"
+	[attr alphaGain]
+		label  		STRING	"Alpha Gain"
+		page 		STRING 	"Color Balance"
+	[attr alphaOffset]	
+		label  		STRING	"Alpha Offset"
+		page 		STRING 	"Color Balance"
+	[attr alphaIsLuminance]
+		label  		STRING	"Alpha Is Luminance"
+		page 		STRING 	"Color Balance"
+	[attr invert]
+		label  		STRING	"Invert"
+		page 		STRING 	"Effects"		
+	
+	
+#--------------------------------------------------------------------------------
+[node MayaVolumeNoise]
+	gaffer.nodeMenu.category STRING "MtoAShaders/3D"	
+	gaffer.graphEditorLayout.defaultVisibility BOOL false
+
+	[attr threshold]
+		label  		STRING	"Threshold"
+	[attr amplitude]
+		label  		STRING	"Amplitude"
+	[attr ratio]
+		label  		STRING	"Ratio"
+	[attr frequencyRatio]
+		label  		STRING	"Frequency Ratio"
+	[attr depthMax]
+		label  		STRING	"Depth Max"
+	[attr inflection]
+		label  		STRING	"Inflection"
+	[attr time]
+		label  		STRING	"Time"
+	[attr frequency]
+		label  		STRING	"Frequency"
+	[attr scale]
+		label  		STRING	"Scale"
+	[attr origin]
+		label  		STRING	"Origin"
+	[attr implode]
+		label  		STRING	"Implode"
+	[attr implodeCenter]
+		label  		STRING	"Implode Center"
+	[attr noiseType]
+		label  		STRING	"Noise Type"
+	[attr density]
+		label  		STRING	"Density"
+	[attr spottyness]
+		label  		STRING	"Spottyness"
+	[attr sizeRand]
+		label  		STRING	"Size Rand"
+	[attr randomness]
+		label  		STRING	"Threshold"
+	[attr falloff]
+		label  		STRING	"Falloff"
+	[attr numWaves]
+		label  		STRING	"Num Waves"
+	[attr placementMatrix]
+
+	[attr wrap]
+		label  		STRING	"Wrap"
+		page 		STRING 	"Effects"
+	[attr local]
+		label  		STRING	"Local"
+		page 		STRING 	"Effects"
+	[attr defaultColor]
+		label  		STRING	"Default Color"
+		page 		STRING 	"Color Balance"
+	[attr colorGain]
+		label  		STRING	"Color Gain"
+		page 		STRING 	"Color Balance"
+	[attr colorOffset]
+		label  		STRING	"Color Offset"
+		page 		STRING 	"Color Balance"
+	[attr alphaGain]
+		label  		STRING	"Alpha Gain"
+		page 		STRING 	"Color Balance"
+	[attr alphaOffset]	
+		label  		STRING	"Alpha Offset"
+		page 		STRING 	"Color Balance"
+	[attr alphaIsLuminance]
+		label  		STRING	"Alpha Is Luminance"
+		page 		STRING 	"Color Balance"
+	[attr invert]
+		label  		STRING	"Invert"
+		page 		STRING 	"Effects"	
+		
+#--------------------------------------------------------------------------------
+[node MayaWater]
+	gaffer.nodeMenu.category STRING "MtoAShaders/2D"	
+	gaffer.graphEditorLayout.defaultVisibility BOOL false
+
+	[attr numWaves]
+		label  		STRING	"Number of Waves"
+	[attr waveTime]	
+		label  		STRING	"Wave Time"
+	[attr waveVelocity]	
+		label  		STRING	"Wave Velocity"
+	[attr waveAmplitude]	
+		label  		STRING	"Wave Amplitude"
+	[attr waveFrequency]	
+		label  		STRING	"Wave Frequency"
+	[attr subWaveFrequency]	
+		label  		STRING	"Sub Wave Frequency"
+	[attr smoothness]	
+		label  		STRING	"Smoothness"
+	[attr windUV]	
+		label  		STRING	"Wind UV"
+
+	[attr rippleTime]	
+		label  		STRING	"Ripple Time"
+		page 		STRING 	"Concentric Ripple"
+	[attr rippleFrequency]	
+		label  		STRING	"Ripple Frequency"
+		page 		STRING 	"Concentric Ripple"
+	[attr rippleAmplitude]	
+		label  		STRING	"Ripple Amplitude"
+		page 		STRING 	"Concentric Ripple"
+	[attr dropSize]	
+		label  		STRING	"Drop Size"
+		page 		STRING 	"Concentric Ripple"
+	[attr rippleOrigin]	
+		label  		STRING	"Ripple Origin"
+		page 		STRING 	"Concentric Ripple"
+	[attr groupVelocity]	
+		label  		STRING	"Group Velocity"
+		page 		STRING 	"Concentric Ripple"
+	[attr phaseVelocity]	
+		label  		STRING	"Phase Velocity"
+		page 		STRING 	"Concentric Ripple"
+	[attr spreadRate]
+		label  		STRING	"Spread Rate"
+		page 		STRING 	"Concentric Ripple"		
+	[attr spreadStart]	
+		label  		STRING	"Spread Start"
+		page 		STRING 	"Concentric Ripple"		
+	[attr reflectionBox]	
+		label  		STRING	"Reflection Box"
+		page 		STRING 	"Concentric Ripple"
+	[attr boxMin]
+		label  		STRING	"Box Min"
+		page 		STRING 	"Concentric Ripple"
+	[attr boxMax]
+		label  		STRING	"Box Max"
+		page 		STRING 	"Concentric Ripple"
+		
+	[attr defaultColor]
+		label  		STRING	"Default Color"
+		page 		STRING 	"Color Balance"
+	[attr colorGain]
+		label  		STRING	"Color Gain"
+		page 		STRING 	"Color Balance"
+	[attr colorOffset]
+		label  		STRING	"Color Offset"
+		page 		STRING 	"Color Balance"
+	[attr alphaGain]
+		label  		STRING	"Alpha Gain"
+		page 		STRING 	"Color Balance"
+	[attr alphaOffset]	
+		label  		STRING	"Alpha Offset"
+		page 		STRING 	"Color Balance"
+	[attr alphaIsLuminance]
+		label  		STRING	"Alpha Is Luminance"
+		page 		STRING 	"Color Balance"
+	[attr invert]
+		label  		STRING	"Invert"
+		page 		STRING 	"Effects"	
+	[attr uvCoord]
+		label  		STRING	"UV Coord"
+		page 		STRING 	"UV Coords"
+	
+#--------------------------------------------------------------------------------
+[node MtoaWriteColor]
+	gaffer.nodeMenu.category STRING "MtoAShaders/AOV"	
+#--------------------------------------------------------------------------------
+[node MtoaWriteFloat]
+	gaffer.nodeMenu.category STRING "MtoAShaders/AOV"	
+#--------------------------------------------------------------------------------
